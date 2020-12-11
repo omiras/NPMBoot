@@ -1,0 +1,23 @@
+$primary : #32be68; // Para todos los text-primary- bg-primary, etc; cambio el color a uno que yo elija. Por ejemplo, para establecer mi color corporativo primario
+
+$grid-breakpoints: (
+  xs: 0,
+  ss: 376px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); 
+
+// Personalizo los breakpoints. Por ejemplo, acabo de añadir uno para
+// cuando el viewport sea mayor o igual a 376. Me permite hacer cosas
+// d-ss-block; es decir, que muestre un elemento cuando el viewport 
+// sea de, al menos, 376px
+
+$font-family-sans-serif: "Verdana", system-ui;
+// Establezco el orden de preferencia de mis fuentes sin serifa
+
+
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
